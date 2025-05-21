@@ -163,6 +163,8 @@ button{
     border-radius: 15px;
     justify-content: space-between;
     padding: 60px 80px;
+    flex-wrap: wrap;
+    gap: 8px;
 }
 
 .call-text{
@@ -183,4 +185,15 @@ button{
 .call-main-text{
     font-size: 18px;
     margin: 0;
+}
+
+/*This is the footer*/
+
+.footer{
+    display: flex;
+    background-color: #1f2937;
+    color:#e5e7eb;
+    font-size: 18px;
+    justify-content: center;
+    align-items: center;
 }
